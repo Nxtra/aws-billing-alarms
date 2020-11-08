@@ -150,7 +150,7 @@ Resources:
       Protocol: email
       TopicArn: !Ref BillingAlertTopic
 
-  AlarmSubscriberSMSNick:
+  AlarmSubscriberSMS:
     Type: AWS::SNS::Subscription
     Properties:
       Endpoint: !Ref Phone
